@@ -1,0 +1,141 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="css/index.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="javascript/jquery.min.js" ></script>
+
+<script type="text/javascript" src="javascript/index.js" ></script>
+<style>
+#LoginMian {height:100%;width:100%;position:relative;}
+#LoginMian>img {position:absolute;top:0;left:0;width:100%;height:100%;float:left;}
+#LoginMian  form {position:absolute;right:0;top:260px;width:318px;}
+#LoginMianBG {width:100%;height:100%;}
+.LoginMianBgBox {width:960px;margin:0px auto;height:100%;position:relative;z-index:2;}
+
+.OnDownload {color:#459ae9;cursor:pointer;}
+.OnDownload-Show {position:absolute;left:27px;top:445px;display:none;}
+.LoginMianBgBoxImg1 {position:absolute;left:0;top:355px;}
+.LoginMianBgBoxImg2 {position:absolute;left:580px;top:247px;}
+
+.LoginMianBgBoxSpan1 {font-size:47px;position:absolute;left:0;top:295px;color:white;z-index:2;}
+.LoginMianBgBoxSpan2 {font-size:18px;position:absolute;left:0px;top:404px;color:white;}
+
+.LoginInputCss {display:inline-block;width:278px;height:58px;font-size:18px;background:url(images/shuruxian.png) no-repeat;color:white;border:none;text-indent:1em;outline:medium;}
+.LoginBtnCss {width:317px;height:49px;background:#2c9ee1;border-radius:5px;border:none;margin-top:82px;font-size:18px;color:white;cursor:pointer;}
+.LoginInputHead {float:left;color:white;display:block;width:40px;height:58px;font-size:18px;line-height:58px;background:url(images/shuruxian.png) no-repeat;}
+
+#LoginFooter {color:white;font-size:12px;width:960px;text-align:center;color:#999999;position:absolute;bottom:15px;}
+</style>
+<title>登陆</title>
+<script>
+$(function(){
+	
+	ClickOn();
+	ShowShadow();
+	OnMouseEnter();
+	});
+	
+	function OnMouseEnter(){
+		
+		var timer=null;
+		
+		
+		$('.OnDownload').mouseover(function(){
+			
+			clearInterval(timer);
+			
+			$('.OnDownload-Show').fadeIn().show();
+			
+			});
+		$('.OnDownload').mouseout(function(){
+			
+			//$('.OnDownload-Show').fadeIn().show();
+			//alert('aaa')
+			timer=setTimeout(function(){$('.OnDownload-Show').fadeIn().hide();},4000);
+			
+			});
+		
+		}
+</script>
+
+</head>
+
+<body>
+    <div id="IndexHeader">
+        <div id="IndexHeaderBox">
+            <div id="IndexHeaderLogo"><strong></strong>
+                <img src="images/logo.png" />
+            </div>
+            <div id="IndexHeaderWords">
+                <ul>
+            <!--    	<li class="IndexHeaderLogin"><a href="#">��½</a></li>  -->
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="AboutUS.html">联系我们</a></li>
+                </ul>
+                <a href="##">
+                    <span class="IndexHeaderLogin">
+                        登陆
+                        <span class="IndexHeaderLoginBox">
+                        登陆
+                        </span>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <div id="LoginMian">
+        <img src="images/beijing.png" />
+        <div id="LoginMianBG">
+        	<div class="LoginMianBgBox">
+            	<span class="LoginMianBgBoxSpan1"><a>第一次使用网站登陆平台？</a></span>
+            	<div class="LoginMianBgBoxImg1">
+                	<img src="images/fengexian.png" />
+                </div>
+                <span class="LoginMianBgBoxSpan2">
+                	<a>请下载</a><a class="OnDownload">宝落科技</a><a> 直接下载进行注册</a>
+                </span>
+                
+                <a href="#">
+                    <div class="OnDownload-Show">
+                        <img src="images/xiazai.png" />
+                    </div>
+                </a>
+                
+                <div class="LoginMianBgBoxImg2">
+                	<img src="images/fenge.png" />
+                </div>
+                
+                
+                <form>
+                	<div>
+                    	<span class="LoginInputHead">
+                        手机
+                        </span>
+                		<input class="LoginInputCss" type="text" value="" />
+                    </div>
+                    <div>
+                    	<span class="LoginInputHead">
+                        密码
+                        </span>
+                    	<input class="LoginInputCss"  type="password" value="" />
+                    </div>
+                    <input class="LoginBtnCss" type="button" value="登陆" />
+                </form>
+                
+                
+                <div id="LoginFooter">
+                    Copyright © 2014-2015 部落科技.All right reserved &nbsp;
+                    <a> 粤ICP备15070130号-2</a> &nbsp; &nbsp; &nbsp;
+                    <img src="images/pic.gif"/>
+                </div>
+                
+            </div>
+            
+            
+        </div>
+    </div>
+
+</body>
+</html>

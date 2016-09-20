@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+	html,body{height:100%;font-family:"微软雅黑";}
+	*{padding:0px;margin:0px;}
+	li{list-style:none;}
+	a{text-decoration:none;}
+	
+	.on a { color:black !important;border-bottom:3px solid #999999;}
+	.IndexMianDownloadBox {background:#ffb200;overflow:hidden;display:block;width:174px;height:54px;border-radius:3px;cursor:pointer;position:relative;}
+	.MarTop20 {margin-top:20px;}
+	
+	#mapContainer{
+	  position: absolute;
+	  top:0;
+	  left: 0;
+	  right:0;
+	  bottom:0;
+	}
+	.IndexMouseWheelBox {height:100%;width:100%;}
+	
+/*-------------------------------------------*/
+#IndexHeader {width:100%;height:70px;position: fixed;top: 0px;background:white;z-index:326416546;border-bottom:1px solid #e5e5e5;}
+#IndexHeaderBox {width:960px;margin:0px auto;}
+#IndexHeaderLogo {width:101px;height:37px;margin-top:16px;float:left;}
+#IndexHeaderWords {float:right;width:270px;}
+
+#IndexHeaderWords ul li a{color:#999999;display:inline-block;height:30px;width:auto;}
+#IndexHeaderWords ul li {display:inline-block;width:80px;height:30px;text-align:center;line-height:30px;margin-top:20px;float:left;}
+.IndexHeaderLogin {background:#42a5f6;border-radius:5px;display:inline-block;width:80px;height:30px;text-align:center;line-height:30px;margin-top:20px;float:right;color:white;position:relative;overflow:hidden;}
+.IndexHeaderLoginBox {display:block;border-radius:5px;width:80px;height:30px;position:absolute;background:#2497f3;top:-30px;opacity:0;}
+
+
+#IndexMian {width:100%;height:100%;}
+#IndexMianTop {height:100%;background:#42a5f6;}
+#IndexMianTopBox{width:960px;position:relative;margin:0px auto;}
+.IndexMianTopBG {width:435px;height:381px;}
+.IndexMianTopItem {width:607px;height:83px;position:absolute;right:0px;top:127px;}
+.IndexMianTopMoblie {width:598px;height:510px;position:absolute;left:0px;top:319px;}
+.IndexMianTopWords {width:328px;height:210px;;position:absolute;top:479px;right:0px;}
+.IndexMianTopWords span a {font-size:18px;color:#FFFFFF;}
+.IndexMianTopErweima {width:130px;height:130px;margin-top:53px;float:left;}
+.IndexMianDownload {float:right;margin-top:53px}
+.IndexMianDownloadLogo {width:30px;height:35px;margin-left:19px;position:absolute;margin-top:10px;z-index:11111;}
+.IndexMianDownloadLogo img {float:left;}
+.IndexMianDownloadWords {display:inline-block;text-align:center;height:54px;line-height:54px;margin-left:67px;}
+.IndexMianDownloadWords>a {color:white;position:absolute;z-index:11111;;}
+
+.IndexMianShadowBox {width:174px;height:54px;border-radius:3px;background:#f39800;position:absolute;top:-54px;opacity:0;display:block;}
+
+
+
+#IndexMianBottom {height:100%;background:white;position:relative;}
+#IndexMianBottomBox {width:960px;margin:0px auto;position:relative;}
+.IndexMianBottomBoxImg1 {position:absolute;left:330px;top:222px;}
+.IndexMianBottomBoxWord {position:absolute;top:384px;left:0px;}
+.IndexMianBottomBoxImg2 {position:absolute;left:394px;top:576px;}
+.IndexMianBottomBoxImg3 {position:absolute;right:0px;top:135px;}
+.IndexMianBottomBoxWordSpan1 {display:block;margin-top:27px;}
+.IndexMianBottomBoxWordSpan2 {display:block;margin-top:10px;}
+.IndexMianBottomBoxWordSpan1 a , .IndexMianBottomBoxWordSpan2 a {font-size:18px;color:#666666;}
+
+#IndexFooter {width:100%;background:#F2F1F1;position:absolute;bottom:0px;}
+#IndexFooterBox {width:960px;height:40px;margin:0px auto;line-height:40px;}
+.IndexFooterBoxWords {color:#999999;font-size:12px;width:960px;text-align:center;}
+
+/*----------------------------------Index Over-------------------------------------*/
+
+#AboutUsMian {width:100%;height:800px;}
+#AboutUsMianBox {width:960px;margin:0px auto;margin-top:64px;}
+.AboutUsMianBoxMod1 {height:225px;width:303px;background:#fbe1e2;float:left;}
+.AboutUsMianBoxMod2 {height:225px;width:303px;background:#daf0ef;float:left;margin:0px 25px;}
+.AboutUsMianBoxMod3 {height:225px;width:303px;background:#f0f6e0;float:right;}
+.AboutUsMianBoxModImg {width:62px;height:44px;margin:0px auto;margin-top:28px;text-align:center;}
+.AboutUsMianBoxModSpan1 {font-size:20px;width:303px;text-align:center;display:block;margin-top:20px;}
+.AboutUsMianBoxModSpan2 {font-size:16px;width:303px;text-align:center;display:block;margin-top:25px;}
+.AboutUsMianBoxModSpan3 {font-size:16px;width:303px;text-align:center;display:block;margin-top:10px;}
+
+.AboutUsMianBoxWords-top {margin-top:70px;}
+.AboutUsMianBoxWordsHeadline {vertical-align:bottom;}
+.AboutUsMianBoxWordsHeadline img {float:left;margin:4px 0 0 5px;}
+.AboutUsMianBoxWordsHeadline span {font-size:22px;margin-left:13px;} 
+.AboutUsMianBoxWordsText {margin-top:13px;}
+.AboutUsMianBoxWordsText p {text-align:justify;text-justify:inter-ideograph;text-indent:2em;line-height:28px;font-size:16px;color:#666666;}
+
+
+
+/*----------------------------------AboutUs Over-------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+

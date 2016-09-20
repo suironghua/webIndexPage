@@ -1,0 +1,203 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+<link href="css/index.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="javascript/jquery.min.js" ></script>
+<script type="text/javascript" src="javascript/index.js" ></script>
+<script type="text/javascript" src="javascript/bdMap.js"></script>
+
+<title>关于我们</title>
+<style>
+/*.BMapLabel {background-color:blue !important;border:none !important; border-radius:2px;}*/
+ 
+</style>
+<script>
+$(function(){
+	
+	ClickOn();
+	ShowShadow();
+	
+	});
+	
+</script>
+</head>
+
+<body style="overflow-x:hidden;">
+    <div id="IndexHeader">
+        <div id="IndexHeaderBox">
+            <div id="IndexHeaderLogo"><strong></strong>
+                <img src="images/logo.png" />
+            </div>
+            <div id="IndexHeaderWords">
+                <ul>
+                    <li><a href="index.html">首页</a></li>
+                    <li class="on"><a href="AboutUS.html">联系我们</a></li>
+                </ul>
+                <!--
+                <a href="LoginPage.html">
+                    <span class="IndexHeaderLogin">
+                        登陆
+                        <span class="IndexHeaderLoginBox">
+                        登陆
+                        </span>
+                    </span>
+                </a>
+                -->
+            </div>
+        </div>
+    </div>
+    <div style="width:100%;height:70px;background:white;"></div>
+    <div id="AboutUsMap" style="width:100%;height:500px;">
+    <!--    <div class="map" style="width:100%;height:500px;overflow:hidden;position:relative;">
+        	 <div id="mapContainer" ></div>
+        	 -->
+        </div>
+    </div>
+    
+	<script type="text/javascript">
+	ShowMap("AboutUsMap",
+	{city:'深圳',
+	addr:'地址：软件产业基地C栋2a-1',
+	title:'宝落科技有限公司',
+	lawfirm:'公司：宝落科技有限公司',
+	tel:'联系电话：15626851942',
+	mapx:'113.947266,22.529363',
+	pic:/*'http://www.shalisoft.com/images/100.jpg'*/'images/MapLogo.png',
+	ismove:'0',
+	piobj:'nxp'});
+    </script>
+    
+    <div id="AboutUsMian">
+    	<div id="AboutUsMianBox">
+        
+        	<div class="AboutUsMianBoxMod1">
+            	<div class="AboutUsMianBoxModImg">
+                	<img src="images/kefu.png" />
+                </div>
+                <span class="AboutUsMianBoxModSpan1">客服</span>
+                <span class="AboutUsMianBoxModSpan2">客服昵称：宝落游戏客服</span>
+                <span class="AboutUsMianBoxModSpan3">客服QQ：1020888008</span>
+            </div>
+            
+        	<div class="AboutUsMianBoxMod2">
+            	<div class="AboutUsMianBoxModImg">
+                	<img src="images/hezuo.png" />
+                </div>
+                <span class="AboutUsMianBoxModSpan1">商务合作</span>
+                <span class="AboutUsMianBoxModSpan2">联系人：吴小姐</span>
+                <span class="AboutUsMianBoxModSpan3">QQ：1020888008</span>
+            </div>
+            
+        	<div class="AboutUsMianBoxMod3">
+            	<div class="AboutUsMianBoxModImg">
+                	<img src="images/dizhi.png" />
+                </div>
+                <span class="AboutUsMianBoxModSpan1">地址</span>
+                <span class="AboutUsMianBoxModSpan2">广东省深圳市南山区海天一路</span>
+                <span class="AboutUsMianBoxModSpan3">软件产业基地</span>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div id="AboutUsMianBoxWords">
+            
+            	<div class="AboutUsMianBoxWords-top">
+                	<div class="AboutUsMianBoxWordsHeadline">
+                    	<img src="images/guanyu.png" />
+                        <span>关于我们</span>
+                    </div>
+                    <div class="AboutUsMianBoxWordsText">
+                    	<p>
+                       深圳宝落科技有限公司成立于2013年，是专注于游戏增值体验、场景化社交运营的互联网企业。公司核心团队由业内资深人士组成，对网络游戏产业具有独到的见解和无与伦比的热忱，致力于将公司打造成全球领先的互联网企业，满足互联网用户日趋多元化、高品质的需求。
+                        </p>
+                    	<p>
+                        宝落科技一直坚持秉承专注专业、锐意创新的理念，自主研发及运营互联网产品；倡导信任、勤奋、创新、成就的核心价值观，为用户提供高效、优质的互联网体验。始终追求卓越的精神，使公司自成立以来始终处于稳健、高速发展的状态。
+                        </p>
+                    	<p>
+                        未来，宝落科技在互联网领域持续发力，将向用户提供基于PC客户端、浏览器以及智能移动终端等多平台多款互联网产品。
+                        </p>
+                    </div>
+                </div>
+                <!--
+            	<div class="AboutUsMianBoxWords-top">
+                	<div class="AboutUsMianBoxWordsHeadline">
+                    	<img src="images/dongtai.png" />
+                        <span>企业动态</span>
+                    </div>
+                    <div class="AboutUsMianBoxWordsText">
+                    	<p>
+                        深圳市部落科技发展有限公司成立于2014年，是一家集网络游戏研发、发行和游戏化社区平台运营于一体的互联网企业。公司核心团队由业内资深人士组成，对网络游戏产业具有独到的见解和无与伦比的热忱，致力于将公司打造成全球领先的互联网企业，满足互联网用户日趋多元化、高品质的需求。
+                        </p>
+                    	<p>
+                        部落科技一直坚持秉承专注专业、锐意创新的理念，自主研发及运营互联网产品；倡导信任、勤奋、创新、成就的核心价值观，为用户提供高效、优质的互联网体验。始终追求卓越的精神，使公司自成立以来始终处于稳健、高速发展的状态。。
+                        </p>
+                    	<p>
+                        未来，部落科技在互联网领域持续发力，将向用户提供基于PC客户端、浏览器以及智能移动终端等多平台多款互联网产品。
+                        </p>
+                    </div>
+                </div>
+                -->
+            </div>
+        </div>
+    </div>
+    
+    
+    <div id="IndexFooter" style="position:relative;">
+        <div id="IndexFooterBox">
+            <div class="IndexFooterBoxWords">
+                Copyright © 2014-2015 宝落科技.All right reserved &nbsp;
+                <a> 粤ICP备15070130号-2</a> &nbsp; &nbsp; &nbsp;
+                <img src="images/pic.gif"/>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+</body>
+<!--
+<script type="text/javascript" src="javascript/map.js"></script>
+<script type="text/javascript">
+    //初始化地图对象，加载地图
+    var map = new AMap.Map("mapContainer", {
+        resizeEnable: true,
+        view: new AMap.View2D({
+            center: new AMap.LngLat(113.871372, 22.562321),//地图中心点
+            zoom: 15 //地图显示的缩放级别
+        })
+    });
+    //添加自定义点标记
+ 	  addMarker();
+
+    //添加带文本的点标记覆盖物
+    function addMarker() {
+        //自定义点标记内容
+        var markerContent = document.createElement("div");
+        markerContent.className = "markerContentStyle";
+
+        //点标记中的图标
+        var markerImg = document.createElement("img");
+        markerImg.className = "markerlnglat";
+        markerImg.src = "http://webapi.amap.com/images/0.png";
+        markerContent.appendChild(markerImg);
+
+        //点标记中的文本
+        var markerSpan = document.createElement("span");
+        markerSpan.innerHTML = "<span style=\'border-radius:6px;background:rgba(0,0,0,.8);width:150px;height:35px;display:block;line-height:35px;color:#fff;text-align:center;\'>深圳市宝落科技</span>";
+        markerContent.appendChild(markerSpan);
+		
+        var marker = new AMap.Marker({                                                                                                                                                    
+            map: map,
+            position: new AMap.LngLat(113.871372, 22.562321), //基点位置
+            offset: new AMap.Pixel(-18, -36), //相对于基点的偏移位置
+            draggable: false/*true*/,  //是否可拖动
+            content: markerContent   //自定义点标记覆盖物内容
+        });
+        marker.setMap(map);  //在地图上添加点
+    }
+</script>
+
+-->
+
+</html>
